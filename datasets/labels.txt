@@ -1,0 +1,10 @@
+barricade
+cctv
+four_wheeler
+pedestrian
+stray_dog
+traffic_light
+traffic_police
+traffic_sign
+two_wheeler
+zebra_crossing
