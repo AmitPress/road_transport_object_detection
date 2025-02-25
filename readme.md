@@ -38,7 +38,7 @@ It made the development way faster. When development speed is fast, the debuggin
 
 #### What else is good about the trainign session?
 The good thing is that I ran a GradCam session and found out the focusing area of the learner without any special preparation.
-![alt gradcam](/reports/resources/resnet50/output.png)
+![alt gradcam](./reports/resources/resnet50/output.png)
 So, here above 7you can see that the original image is of all four wheelers where the gradcam is focusing is also on the section of the four wheelers. Although it is not that accurate but isnt this the point? We want to see the discrepancy and improve.
 
 
