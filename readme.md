@@ -25,7 +25,7 @@ The `reference_papers` folder holds the literatures that are being reviewed in t
 
 Please let me know if anything went incomprehensible. I will try to clearify that as well.
 
-# Source Codes Overview
+## Source Codes Overview
 
 ### RESNET50 Model
 The `rtds-pretrained.ipynb` file is reponsible for fine-tuning the resnet50 model for our application. In this file we have used the popular `fastai` module by Jeremy Howard. This module is basically a wrapper around the pytorch module. So, it abstracts away many setup procedures of pytorch itself.
@@ -38,7 +38,7 @@ It made the development way faster. When development speed is fast, the debuggin
 
 #### What else is good about the trainign session?
 The good thing is that I ran a GradCam session and found out the focusing area of the learner without any special preparation.
-![alt gradcam](./reports/resources/resnet50/output.png)
+![alt gradcam](../reports/resources/resnet50/output.png)
 So, here above 7you can see that the original image is of all four wheelers where the gradcam is focusing is also on the section of the four wheelers. Although it is not that accurate but isnt this the point? We want to see the discrepancy and improve.
 
 
